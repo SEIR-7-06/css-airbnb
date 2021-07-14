@@ -1,3 +1,90 @@
-h1 {
-  color: salmon;
+
+
+body{
+  background-color: #edefec;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  position:fixed;
+  width: 100%;
+  height:100%;
+  margin:0;
+}
+.header1{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: flex-start;
+  color: #575b5e;
+  margin: 20px;
+}
+
+
+
+h1,h2{
+  text-align: center;
+  margin:5px;
+}
+h2{
+  font-size: 15px;
+  font-weight: normal;
+}
+h1{
+  font-size:25px;
+  font-weight: bold;
+}
+.buttonbox{  
+  display:flex;
+  justify-content: center;
+  margin: 30px;
+}
+.button{
+  width:250px;
+  height:35px;
+  background: white; 
+  transition-duration: 0.4s;
+  color: #575b5e;
+  font-size:13px;
+  font-weight:bold;
+  
+}
+.button:hover {
+  background-color: #edefec;
+  color: #575b5e;
+  
+}
+
+.picturebox{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.imagebox{
+  position: relative;
+}
+img{
+  height:250px;
+  width:250px; 
+  
+}
+.centerimg{
+  height:250px;
+  width:250px;
+  margin-right: 20px;
+  margin-left:20px;
+}
+.text{
+  position: absolute;
+  display:inline-block;
+  color:white;
+  top:40%;
+  left:50%;
+  font-size: 25px;
+  transform: translate(-50%, -50%);
+  font-weight: bold;  
+  overflow: hidden;
+  white-space: nowrap;
 }
