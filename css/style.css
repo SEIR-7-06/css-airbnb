@@ -1,3 +1,61 @@
-h1 {
-  color: salmon;
+body {
+  text-align:center;
+  background:gainsboro;
+  display: flex;
+  flex-direction: column;
+  flex-flow:column wrap;
 }
+
+h1 {
+  color: Gray;
+  font-family:Arial, Helvetica, sans-serif;
+}
+h2 {
+  color: gray;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 10;
+}
+
+.buttonbox {
+  width: 400px;
+  border: 2px solid grey;
+  padding: 15px;
+  margin: 2% 33% 2% 33%;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:whitesmoke;
+}
+.flex-container {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  vertical-align: middle;
+  text-align:center;
+  position:relative;
+  justify-content: space-around;
+  align-items:center;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 300px;
+  height: 325px;
+  font-family: arial, sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: 300px;
+    height: 325px;
+}  
