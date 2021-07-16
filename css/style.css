@@ -1,3 +1,153 @@
-h1 {
-  color: salmon;
+body{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+
 }
+
+.display{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  color: white;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+   
+}
+
+.display2{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  color: white;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+   
+}
+
+h1 {
+  color: rgb(75, 75, 75);
+  text-align: center;
+  margin: 5px;
+  font-size: 36px;
+}
+
+button{
+  display: block;
+  background: white;
+  width: 33%;
+  height: 50px;
+  margin: 25px auto;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.underBanner{
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+
+
+#guidebooks{
+ margin: 0;
+ font-family: 'Poppins', sans-serif;
+}
+#destinations{
+ margin: 0;
+ font-family: 'Poppins', sans-serif;
+}
+
+#weekend{
+  margin: 0;
+}
+
+.square{
+  background: tomato;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 5px;
+  width: 500px;
+  height: 500px;
+  margin-top: 10px;
+  line-height: 500px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.space1{
+  
+  background: red;
+  background-image: url('../img/san-francisco.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+  
+  
+}
+.space2{
+  background-color: gold;
+  background-image: url('../img/new-york.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    margin-left: 15px;
+  
+}
+.space3{
+  background-color: blue;
+  background-image: url('../img/london.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+  
+}
+.space4{
+  
+  background: red;
+  background-image: url("../img/napa.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+  
+}
+.space5{
+  background: yellow;
+  background-image: url('../img/sonoma.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.space6{
+  background: blue;
+  background-image: url('../img/san-francisco-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}
+
+
+
+
+
