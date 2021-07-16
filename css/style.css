@@ -1,3 +1,46 @@
-h1 {
-  color: salmon;
+body{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  color: #636566;
+  justify-content: flex-start;
+  align-content: space-between;
+  display: inline;
+ 
 }
+
+ul{
+  list-style: none;
+}
+
+img{
+  height: 180px;
+  width: 170px;
+}
+
+li{
+  display: inline-flex;
+  max-width: 33%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 50px;
+  color: white;
+}
+
+h1{
+  justify-content: center;
+  display: flex;
+}
+
+h3{
+  justify-content: center;
+  display: flex;
+  font-size: 10px;
+}
+
+button{
+  align-content: center;
+  display: flex;
+  margin: auto;
+}
+
