@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500&display=swap');
+
+* {
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.container {
+    display: flex;
+    flex-direction:row; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    
+  }
+  
+  .item {
+    flex: 1 1 0;
+    width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background: url('SF_bridge_1200x800.jpeg') no-repeat;
+    background-size: 500px;
+    height:300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0px 5px 11px 5px rgba(255, 255, 255, 0.66);
+    -webkit-box-shadow: 0px 5px 11px 5px rgba(255, 255, 255, 0.66);
+    -moz-box-shadow: 10px 11px 0px 10px rgba(255, 255, 255, 0.66);
+
+
+  }
+
+  .item2 {
+    flex: 1 1 0;
+    width: 0;
+    text-align: center;
+    background: url('ST_Robinson_Sunset_600.jpeg') no-repeat;
+    background-size: 500px;
+    height:300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0px 5px 11px 5px rgba(255, 255, 255, 0.66);
+    -webkit-box-shadow: 0px 5px 11px 5px rgba(255, 255, 255, 0.66);
+    -moz-box-shadow: 10px 11px 0px 10px rgba(255, 255, 255, 0.66);
+
+  }
+
+  .item3 {
+    flex: 1 1 0;
+    width: 0;
+    text-align: center;
+    background: url('file-20200526-106823-6qc9z8.jpeg') no-repeat;
+    background-size: 500px;
+    height:300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0px 5px 11px 5px rgba(255, 255, 255, 0.66);
+    -webkit-box-shadow: 0px 5px 11px 5px rgba(255, 255, 255, 0.66);
+    -moz-box-shadow: 10px 11px 0px 10px rgba(255, 255, 255, 0.66);
+
+  }
+
+  .item4 {
+    flex: 1 1 0;
+    width: 0;
+    text-align: center;
+    background: url('napa_sanoma_1600x750.jpeg') no-repeat;
+    background-size: 500px;
+    height:300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-wrap: column;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0px 5px 11px 5px rgba(255, 255, 255, 0.66);
+    -webkit-box-shadow: 0px 5px 11px 5px rgba(255, 255, 255, 0.66);
+    -moz-box-shadow: 10px 11px 0px 10px rgba(255, 255, 255, 0.66);
+
+  }
+
+  .item5 {
+    flex: 1 1 0;
+    width: 0;
+    text-align: center;
+    background: url('BRCohn-7143-1-scaled.jpeg') no-repeat;
+    background-size: 500px;
+    height:300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-wrap: column;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0px 5px 11px 5px rgba(255, 255, 255, 0.66);
+    -webkit-box-shadow: 0px 5px 11px 5px rgba(255, 255, 255, 0.66);
+    -moz-box-shadow: 10px 11px 0px 10px rgba(255, 255, 255, 0.66);
+
+  }
+
+  .item6 {
+    flex: 1 1 0;
+    width: 0;
+    text-align: center;
+    background: url('San-Francisco-2-2.jpeg') no-repeat;
+    background-size: 500px;
+    height:300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-wrap: column;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0px 5px 11px 5px rgba(255, 255, 255, 0.66);
+    -webkit-box-shadow: 0px 5px 11px 5px rgba(255, 255, 255, 0.66);
+    -moz-box-shadow: 10px 11px 0px 10px rgba(255, 255, 255, 0.66);
+
+  }
+
+button {
+    margin:10px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(100, 100, 100);
+    border-width: 1px;
+    border-color: rgb(196, 196, 196);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15px; 
+    font-size: 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(to top left, #ffffff, #e4e4e4);
+    box-shadow: 0px 5px 11px 5px rgba(255, 255, 255, 0.66);
+    -webkit-box-shadow: 0px 5px 11px 5px rgba(255, 255, 255, 0.66);
+    -moz-box-shadow: 10px 11px 0px 10px rgba(255, 255, 255, 0.66);
+
+}
+
+button:hover {
+    background-image: linear-gradient(to top left, #414141, #7e7e7e);
+    color:white;
+
+}
+
+h1 {
+    padding: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(100, 100, 100);
+    
+}
+
+p {
+    padding: 0px;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color:rgb(110, 110, 110);
+}
+
+h3 {
+    padding: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size:25px;
+    font-weight: 400;
+}
