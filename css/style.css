@@ -1,3 +1,140 @@
-h1 {
-  color: salmon;
+body{
+  background-color: white smoke;
 }
+h1 {
+  color: rgb(108, 106, 105);
+  text-align: center;
+  font-family: Helvetica;
+}
+h4 {
+  color: rgb(108, 106, 105);
+  text-align: center;
+  font-family: Helvetica;
+}
+#options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-a {
+  display: inline-flex; 
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 15px;
+} 
+
+.flex-container-a div{
+  margin: 8px;
+}
+
+.SF {
+  background-image: url(../img/san-francisco.jpg);
+  color: whitesmoke;
+  height: 220px;
+  width: 190px;
+  align-items: center;
+  background-size: cover;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-position: -80px;
+  line-height: 220px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.NY {
+  background-image: url(../img/new-york.jpg);
+  color: whitesmoke;
+  height: 220px;
+  width: 190px;
+  align-items: center;
+  background-size: cover;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-position: -80px;
+  line-height: 220px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.L {
+  background-image: url(../img/london.jpg);
+  color: whitesmoke;
+  height: 220px;
+  width: 190px;
+  align-items: center;
+  background-size: cover;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-position: -80px;
+  line-height: 220px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-b {
+  display: inline-flex; 
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 15px;
+} 
+
+.flex-container-b div{
+  margin: 8px;
+} 
+
+.N {
+  background-image: url(../img/napa.jpg);
+  color: whitesmoke;
+  height: 220px;
+  width: 190px;
+  align-items: center;
+  background-size: cover;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-position: -80px;
+  line-height: 220px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.S {
+  background-image: url(../img/sonoma.jpg);
+  color: whitesmoke;
+  height: 220px;
+  width: 190px;
+  align-items: center;
+  background-size: cover;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-position: -80px;
+  line-height: 220px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.SnF {
+  background-image: url(../img/san-francisco-2.jpg);
+  color: whitesmoke;
+  height: 220px;
+  width: 190px;
+  align-items: center;
+  background-size: cover;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-position: -80px;
+  line-height: 220px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
