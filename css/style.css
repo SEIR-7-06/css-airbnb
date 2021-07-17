@@ -1,3 +1,57 @@
-h1 {
+/* h1 {
   color: salmon;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  
+
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.boxmiddle {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+} 
+
+
+
+
+ .box {
+  display:flex;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+   
+} 
+
+.header {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.boxmiddle {
+  display:flex;
+
+}
+
+.text {
+  
+
+}
+
+.innerDiv {
+background-image: url("img/san-francisco.jpg");
+}
+.footer {
+  text-align: center;
+  padding-top: 100px;
 }
